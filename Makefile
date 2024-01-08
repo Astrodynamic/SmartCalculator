@@ -15,7 +15,6 @@ unistall:
 
 clean: unistall
 	find ./ -name "__pycache__" -type d -exec rm -rf {} +
-	find ./ -name "*.user" -type f -exec rm -rf {} +
 
 environment:
 	python3 -m venv .env

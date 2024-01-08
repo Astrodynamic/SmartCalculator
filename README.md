@@ -1,6 +1,6 @@
 # SmartCalculator
 
-A Python Calculator Application utilizing C++ for calculations with Qt/QML interface.
+A Python Calculator Application utilizing C++ for calculations with Qt/QML interface. The program follows the MVVM or MVP pattern, adheres to Google Code Style, and separates business logic appropriately.
 
 ## Overview
 
@@ -29,6 +29,34 @@ Create a virtual environment and install the required Python dependencies:
 ```bash
 make environment
 ```
+
+## Arithmetic Operators
+
+| Operator            | Infix Notation (Classic) | Prefix Notation (Polish) | Postfix Notation (Reverse Polish) |
+|---------------------|--------------------------|--------------------------|-----------------------------------|
+| Parentheses         | (a + b)                  | (+ a b)                  | a b +                             |
+| Addition            | a + b                    | + a b                    | a b +                             |
+| Subtraction         | a - b                    | - a b                    | a b -                             |
+| Multiplication      | a * b                    | * a b                    | a b *                             |
+| Division            | a / b                    | / a b                    | a b \                             |
+| Raising to the Power | a ^ b                    | ^ a b                    | a b ^                             |
+| Remainder of Division| a mod b                  | mod a b                  | a b mod                           |
+| Unary Plus          | +a                       | +a                       | a+                                |
+| Unary Minus         | -a                       | -a                       | a-                                |
+
+## Mathematical Functions
+
+| Function            | Notation                 |
+|---------------------|--------------------------|
+| Cosine              | cos(x)                   |
+| Sine                | sin(x)                   |
+| Tangent             | tan(x)                   |
+| Arc Cosine          | acos(x)                  |
+| Arc Sine           | asin(x)                  |
+| Arc Tangent        | atan(x)                  |
+| Square Root        | sqrt(x)                  |
+| Natural Logarithm  | ln(x)                    |
+| Decimal Logarithm  | log(x)                   |
 
 ## Usage
 
