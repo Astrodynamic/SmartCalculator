@@ -1,0 +1,9 @@
+{
+    "files": [
+        "main.py",
+        "data/resource.qrc",
+        "view/main.qml",
+        "view/model/ButtonModel.qml",
+        "src/Calculation.py"
+    ]
+}
