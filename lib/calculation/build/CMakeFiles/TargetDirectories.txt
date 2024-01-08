@@ -1,3 +1,0 @@
-/home/astrodynamic/Documents/GitHub/SmartCalculator/lib/calculation/build/CMakeFiles/Calculation.dir
-/home/astrodynamic/Documents/GitHub/SmartCalculator/lib/calculation/build/CMakeFiles/edit_cache.dir
-/home/astrodynamic/Documents/GitHub/SmartCalculator/lib/calculation/build/CMakeFiles/rebuild_cache.dir
