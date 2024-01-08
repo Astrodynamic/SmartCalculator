@@ -12,62 +12,6 @@ This project is a calculator application written in Python 3.12 with a Qt/QML in
 - C++17 compiler
 - Qt/QML
 
-## Installation
-
-### Build C++ Library
-
-To build the C++ calculation library, run the following commands:
-
-```bash
-make build
-```
-
-### Python Environment
-
-Create a virtual environment and install the required Python dependencies:
-
-```bash
-make environment
-```
-
-## Arithmetic Operators
-
-| Operator            | Infix Notation (Classic) | Prefix Notation (Polish) | Postfix Notation (Reverse Polish) |
-|---------------------|--------------------------|--------------------------|-----------------------------------|
-| Parentheses         | (a + b)                  | (+ a b)                  | a b +                             |
-| Addition            | a + b                    | + a b                    | a b +                             |
-| Subtraction         | a - b                    | - a b                    | a b -                             |
-| Multiplication      | a * b                    | * a b                    | a b *                             |
-| Division            | a / b                    | / a b                    | a b \                             |
-| Raising to the Power | a ^ b                    | ^ a b                    | a b ^                             |
-| Remainder of Division| a mod b                  | mod a b                  | a b mod                           |
-| Unary Plus          | +a                       | +a                       | a+                                |
-| Unary Minus         | -a                       | -a                       | a-                                |
-
-## Mathematical Functions
-
-| Function            | Notation                 |
-|---------------------|--------------------------|
-| Cosine              | cos(x)                   |
-| Sine                | sin(x)                   |
-| Tangent             | tan(x)                   |
-| Arc Cosine          | acos(x)                  |
-| Arc Sine           | asin(x)                  |
-| Arc Tangent        | atan(x)                  |
-| Square Root        | sqrt(x)                  |
-| Natural Logarithm  | ln(x)                    |
-| Decimal Logarithm  | log(x)                   |
-
-## Usage
-
-Run the calculator application:
-
-```bash
-make run
-```
-
-This will start the Qt/QML interface with the calculator.
-
 ## Build Targets
 
 - `make all` (default): Build the project.
@@ -92,6 +36,36 @@ The C++ calculation library (`calculation.h`, `calculation.cc`) provides the cor
 ## Qt/QML Interface
 
 The Qt/QML interface is defined in the `view/main.qml` file, and the Python script (`main.py`) handles the integration between Python and C++.
+
+## Installation
+
+### Build C++ Library
+
+To build the C++ calculation library, run the following commands:
+
+```bash
+make build
+```
+
+### Python Environment
+
+Create a virtual environment and install the required Python dependencies:
+
+```bash
+make environment
+```
+
+## Usage
+
+Run the calculator application:
+
+```bash
+make run
+```
+
+This will start the Qt/QML interface with the calculator.
+
+
 
 ## Cleaning Up
 
