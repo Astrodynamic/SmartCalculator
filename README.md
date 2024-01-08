@@ -59,7 +59,7 @@ This will start the Qt/QML interface with the calculator.
 
 ## C++ Calculation Library
 
-The C++ calculation library (`calculation.h`, `calculation.cpp`) provides the core logic for parsing and evaluating mathematical expressions. It supports basic operations, functions, and constants.
+The C++ calculation library (`calculation.h`, `calculation.cc`) provides the core logic for parsing and evaluating mathematical expressions. It supports basic operations, functions, and constants.
 
 ## Qt/QML Interface
 
@@ -73,13 +73,5 @@ To remove build artifacts and Python cache files, run:
 make clean
 ```
 
-## Contributors
-
-- [Your Name]
-- [Other Contributors]
-
-Feel free to contribute to the project by forking and submitting pull requests.
-
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+## LICENSE
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it as per the terms of the license.
